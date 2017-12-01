@@ -14,7 +14,7 @@
 
 
 from skygear.models import Record
-from skygear.transmitter.encoding import deserialize_record, serialize_record
+from skygear.encoding import deserialize_record, serialize_record
 
 from .asset import sign_asset_url
 from .exc import SkygearChatException
